@@ -1,7 +1,6 @@
 ---
 title: Markdown Test
 updated: 2021-01-16 20:21
-category: test
 ---
 
 **NOTE:** This markdown test!
