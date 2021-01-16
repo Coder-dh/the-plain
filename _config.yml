@@ -6,7 +6,7 @@ logo_url:           https://share-cdn.picrew.me/app/share/202101/28974_xZbGDv82.
 
 # Site Settings
 url:                http://blog.kdh0604.kro.kr/ # main url
-baseurl:            /
+baseurl:            
 permalink:          /:title # Post permalink
 timezone:           Japan # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
