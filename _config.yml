@@ -5,7 +5,7 @@ author_name:        "CoderK" # change this to your name
 logo_url:           https://share-cdn.picrew.me/app/share/202101/28974_xZbGDv82.png # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
-url:                http://blog.kdh0604.kro.kr/ # main url
+url:                https://blog.kdh0604.kro.kr/ # main url
 baseurl:            
 permalink:          /:title # Post permalink
 timezone:           Japan # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
