@@ -6,12 +6,12 @@ title: Tag
 	<a href="https://blog.kdh0604.kro.kr//">Year </a>| <a href="https://blog.kdh0604.kro.kr//tag">Tag </a>
 	{% for post in site.posts %}
 		{% unless post.next %}
-			<h3 class="code">{{ post.date | tag }}</h3>
+			<h3 class="code">{{ post.date | category }}</h3>
 		{% else %}
-			{% capture year %}{{ post.date | tag }}{% endcapture %}
-			{% capture nyear %}{{ post.next.date | tag }}{% endcapture %}
+			{% capture year %}{{ post.date | category }}{% endcapture %}
+			{% capture nyear %}{{ post.next.date | category }}{% endcapture %}
 			{% if year != nyear %}
-				<h3 class="code">{{ post.date | tag }}</h3>
+				<h3 class="code">{{ post.date | category }}</h3>
 			{% endif %}
 		{% endunless %}
 
