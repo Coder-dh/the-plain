@@ -3,8 +3,5 @@ layout: page
 title: About
 ---
 
-Hello.
-
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
-
-**Less is more..**
+안녕하세요!
+개발자 CoderK입니다. 이번에 블로그를 운영하게 되었습니다. 응원해주세요!!
