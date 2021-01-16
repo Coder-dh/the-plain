@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
+title: Tag
 ---
-
 <section>
 	<a href="https://blog.kdh0604.kro.kr//">Year </a>| <a href="https://blog.kdh0604.kro.kr//tag">Tag </a>
 	{% for post in site.posts %}
