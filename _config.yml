@@ -43,8 +43,3 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
-  -
-    scope:
-      type:         "tag"
-    values:
-      layout:       "tag"
