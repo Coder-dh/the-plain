@@ -1,0 +1,27 @@
+<section>
+	<a href="https://blog.kdh0604.kro.kr//">Year </a>| <a href="https://blog.kdh0604.kro.kr//tag">Tag </a>
+	{% for post in site.posts %}
+		{% unless post.next %}
+			<h3 class="code">{{ post.date | tag }}</h3>
+		{% else %}
+			{% capture year %}{{ post.date | tag }}{% endcapture %}
+			{% capture nyear %}{{ post.next.date | tag }}{% endcapture %}
+			{% if year != nyear %}
+				<h3 class="code">{{ post.date | tag }}</h3>
+			{% endif %}
+		{% endunless %}
+
+		<ul>
+			<li>
+				<div class="post-date code">
+					<span>{{ post.date | tag }}</span>
+				</div>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+				</div>
+			</li>
+		</ul>
+
+	{% endfor %}
+
+</section>
