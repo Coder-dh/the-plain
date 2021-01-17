@@ -2,6 +2,7 @@
 title: Markdown Test
 updated: 2021-01-16 20:21
 tag: test
+type: Announcement
 ---
 
 **NOTE:** This markdown test!
