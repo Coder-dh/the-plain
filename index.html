@@ -8,7 +8,7 @@ layout: default
 			<h3 class="code">{{ post.type }}</h3>
 		{% else %}
 			{% capture year %}{{ post.type }}{% endcapture %}
-			{% capture nyear %}{{ post.type' }}{% endcapture %}
+			{% capture nyear %}{{ post.next.type }}{% endcapture %}
 			{% if year != nyear %}
 				<h3 class="code">{{ post.type }}</h3>
 			{% endif %}
