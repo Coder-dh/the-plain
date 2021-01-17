@@ -43,12 +43,3 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
-
- tipue_search:
-     include:
-         pages: false
-         collections: []
-     exclude:
-         files: [search.html, index.html]
-         categories: []
-         tags: []
